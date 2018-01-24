@@ -1,0 +1,75 @@
+body{
+     font-family: 'Oswald', sans-serif;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.Anasayfa-header{
+    height: 120px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.col{
+    width: 50%;
+    float: left;
+}
+
+.logo{
+    margin-top: 20px;
+}
+
+nav{
+    float: right
+}
+
+.Anasayfa-menu{
+    margin-top: 40px;
+}
+
+.Anasayfa-menu ul{
+    margin: 0;
+    padding: 0;
+}
+
+.Anasayfa-menu li{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.Anasayfa-menu li a{
+    color:white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.Anasayfa-menu li a:hover {
+    color: black;
+}
+
+#Anasayfa{
+    background-image: url(../Foto/ANASAYFA.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 662px;
+    padding: 200px 30px 100px 0px;
+}
+
+.container1 h1{
+    color:#27ae60;
+    font-size: 72px;
+    padding-left: 400px; 
+    font-weight: 100;
+}
+
+.container1 p{
+    color:black;
+    font-size: 16px;
+    padding-left: 250px;
+    padding-right: 400px;
+    font-weight: 200;
+}

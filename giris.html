@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Kayıt Giriş</title>
+        
+         <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet">
+        <link rel="stylesheet"
+ type="text/css" href="Css/font-awesome.css">
+        <link rel="stylesheet" type="text/css" href="Css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="Css/Kayıtgiris.css">
+   	    <meta charset="utf-8"/>
+
+    </head>
+    
+    <body>
+        <header class="Kayıtgiris-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <a href="sayfagiris.html"><img class="logo" src="Foto/Logo.png"></a>    
+                    </div>
+                    <div class="col">
+                        <nav class="Kayıtgiris-menu">
+                            <ul>
+                                <li><a href="giris.html">GİRİŞ YAP</a></li>
+                                <li><a href="sayfagiris.html">KAYIT OL</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>  
+        
+        <section id="Kayıtgiris">
+            <div class="container">
+              <h1>NOT.AL’da Oturum Açın</h1>
+                <form action="girisyap.php" method="post">
+                        <h4>E-POSTA</h4>
+                        <input  name="email" type="email" placeholder="E-posta">
+                        <h4>ŞİFRE</h4>
+                        <input  name="sifre" type="password" placeholder="Şifre">
+                        <p>
+                        <input type="submit" value="OTURUM AÇ" class="Sayfagiris-btn">
+                        </p>    
+                    </form>
+            </div>   
+        </section>
+        
+    </body>
+</html>

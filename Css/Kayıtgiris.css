@@ -1,0 +1,102 @@
+body{
+     font-family: 'Oswald', sans-serif;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.Kayıtgiris-header{
+    height: 120px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.col{
+    width: 50%;
+    float: left;
+}
+
+.logo{
+    margin-top: 30px;
+}
+
+nav{
+    float: right
+}
+
+.Kayıtgiris-menu{
+    margin-top: 50px;
+}
+
+.Kayıtgiris-menu ul{
+    margin: 0;
+    padding: 0;
+}
+
+.Kayıtgiris-menu li{
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.Kayıtgiris-menu li a{
+    color:white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.Kayıtgiris-menu li a:hover {
+    color: black;
+}
+
+#Kayıtgiris{
+    background-image: url(../Foto/Kay%C4%B1t-Giri%C5%9Fi.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 662px;
+    padding: 100px 100px 100px 500px;
+}
+
+.container h1{
+    color:black;
+    font-size: 48px; 
+    padding-left: 50px;
+    font-weight: 100;
+}
+
+.container form h4{
+    color:black;
+    font-size: 20px; 
+    font-weight: 200;
+}
+
+form{
+    width: 100%;
+    margin: 0 auto;
+}
+
+form input{
+    width: 40%;
+    border: none;
+    width: 300px;
+    height: 40px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.Sayfagiris-btn{
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    background-color: #009640;
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bolder;
+    border-radius: 5px;
+}

@@ -1,0 +1,111 @@
+body{
+     font-family: 'Oswald', sans-serif;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.Read-header{
+    height: 120px;
+    background-color: rgba(255,0,0,0.15);
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.col{
+    width: 50%;
+    float: left;
+}
+
+.logo{
+    margin-top: 30px;
+}
+
+nav{
+    float: right
+}
+
+.Read-menu{
+    margin-top: 50px;
+}
+
+.Read-menu ul{
+    margin: 0;
+    padding: 0;
+}
+
+.Read-menu li{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.Read-menu li a{
+    color:white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.Read-menu li a:hover {
+    color: black;
+}
+
+
+#Read1{
+    background-image: url(../Foto/Create.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 662px;
+    padding: 0px 100px 100px 150px;
+}
+#Read{
+    background-image: url(../Foto/Create.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 140px 100px 10px 150px;
+}
+
+form{
+    width: 100%;
+    margin: 0 auto;
+}
+
+form input{
+    border: none;
+    width: 300px;
+    height: 40px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.Notara-btn{
+    margin-left: 20px;
+    margin-right: 300px;
+    display: inline-block;
+    width: 180px;
+    height: 40px;
+    background-color: #009640;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+.Notlistele-btn{
+    
+    display: inline-block;
+    width: 300px;
+    height: 40px;
+    background-color: #009640;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bolder;
+    border-radius: 5px;
+}

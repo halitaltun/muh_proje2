@@ -1,0 +1,95 @@
+body{
+     font-family: 'Oswald', sans-serif;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.Create-header{
+    height: 120px;
+    background-color: rgba(255,0,0,0.15);
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.col{
+    width: 50%;
+    float: left;
+}
+
+.logo{
+    margin-top: 30px;
+}
+
+nav{
+    float: right
+}
+
+.Create-menu{
+    margin-top: 50px;
+}
+
+.Create-menu ul{
+    margin: 0;
+    padding: 0;
+}
+
+.Create-menu li{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.Create-menu li a{
+    color:white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.Create-menu li a:hover {
+    color: black;
+}
+
+#Create{
+    background-image: url(../Foto/Create.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 662px;
+    padding: 100px 100px 100px 200px;
+}
+
+.container h4{
+    color:white;
+    font-size: 22px; 
+    font-weight: 300;
+}
+
+form{
+    width: 100%;
+    margin: 0 auto;
+}
+
+form input{
+    border: none;
+    width: 300px;
+    height: 40px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.Create-btn{
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    background-color: #009640;
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bolder;
+    border-radius: 5px;
+}
